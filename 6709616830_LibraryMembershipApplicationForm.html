@@ -21,6 +21,14 @@
         <label for="female">หญิง</label>
         <input type="radio" id="other" name="gender" value="other">
         <label for="other">LQBTQ+</label><br><br>
+
+        <label for="student-id">รหัสนักศึกษา: <span style="color: red;">*</span></label>
+        <input type="text" id="student-id" name="student-id" required pattern="\d{8}"
+            placeholder="กรอกรหัสนักศึกษา 10 หลัก"><br><br>
+        
+        <label for="faculty">คณะที่ศึกษา: <span style="color: red;">*</span></label>
+        <input type="text" id="faculty" name="faculty" required placeholder="กรอกคณะที่ศึกษา"><br><br>
+        
     </form>
     
 </body>
